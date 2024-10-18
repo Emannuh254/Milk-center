@@ -8,6 +8,7 @@ The Milk Collection Center project is a web application that allows users to vie
 - Users can submit reviews for each center.
 - Filter collection centers by location and minimum rating.
 - Dark mode toggle for improved accessibility.
+- The page is hosted here -https://emannuh254.github.io/Milk-center/
 
 ## Technologies Used
 - HTML
