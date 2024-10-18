@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; 
+    color: black; 
+    overflow-x: hidden;
+    position: center;
+}
+header { 
+    background-color: #00bfff; 
+    color: black; 
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.collection-centers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: center;
+}
+
+.center-card {
+    background: white; 
+    border: 1px solid #00bfff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.center-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.center-card img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.center-card:hover img {
+    transform: scale(1.05);
+}
+
+p, h2, h1, a {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+p:hover, h2:hover, h1:hover, a:hover {
+    color: #00bfff;
+    transform: scale(1.02);
+}
+
+button {
+    background-color: #00bfff;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #009999;
+    transform: translateY(-3px);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #00bfff;
+    color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+body.dark-mode {
+    background-color: #000000;
+    color: #ffffff; 
+}
+body.dark-mode header {
+    background-color: #ff6600;
+    color: white; 
+}
+body.dark-mode .center-card {
+    background-color: #1a1a1a;
+    border: 1px solid #ff6600; 
+}
+body.dark-mode .center-card:hover {
+    border-color: #ff6600;
+}
+body.dark-mode p:hover, 
+body.dark-mode h2:hover, 
+body.dark-mode h1:hover, 
+body.dark-mode a:hover {
+    color: #ff6600;
+}

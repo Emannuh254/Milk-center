@@ -1,0 +1,130 @@
+{
+    "centers": [
+        {
+            "id": 1,
+            "name": "Green Pastures Milk Collection",
+            "location": "Umoja",
+            "rating": 4.3,
+            "reviews": [
+                {
+                    "user": "John Doe",
+                    "comment": "Good service, but could improve efficiency.",
+                    "rating": 4
+                }
+            ],
+            "image": "./Images/image1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Fresh Dairy Farms",
+            "location": "Thika",
+            "rating": 3.9,
+            "reviews": [
+                {
+                    "user": "Jane Smith",
+                    "comment": "Clean environment, but service can be slow.",
+                    "rating": 3
+                }
+            ],
+            "image": "./Images/image2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Sunny Meadows Dairy",
+            "location": "Nyeri",
+            "rating": 4.2,
+            "reviews": [
+                {
+                    "user": "Alice Johnson",
+                    "comment": "Great milk quality, but customer service needs improvement.",
+                    "rating": 4
+                }
+            ],
+            "image": "./Images/image3.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Happy Cows Collection Center",
+            "location": "Umoja",
+            "rating": 4.5,
+            "reviews": [
+                {
+                    "user": "Bob Brown",
+                    "comment": "Fresh milk and quick service, but prices are a bit high.",
+                    "rating": 4
+                }
+            ],
+            "image": "./Images/image4.jpeg"
+        },
+        {
+            "id": 5,
+            "name": "Pure Milk Co-op",
+            "location": "Rongai",
+            "rating": 4.7,
+            "reviews": [
+                {
+                    "user": "Emily White",
+                    "comment": "Great variety of milk options and excellent quality.",
+                    "rating": 5
+                }
+            ],
+            "image": "./Images/image5.jpeg"
+        },
+        {
+            "id": 6,
+            "name": "Tumaini Milk Collection",
+            "location": "Meru",
+            "rating": 4.6,
+            "reviews": [
+                {
+                    "user": "Uhuru Mugambi",
+                    "comment": "Efficient service but the staff could be more welcoming.",
+                    "rating": 4
+                }
+            ],
+            "image": "./Images/image1.jpeg"
+        },
+        {
+            "id": 7,
+            "name": "Lucky Milk Collection",
+            "location": "Kikuyu",
+            "rating": 4.1,
+            "reviews": [
+                {
+                    "user": "Kelvin Kimathi",
+                    "comment": "Good service, but the wait times are a bit long.",
+                    "rating": 4
+                }
+            ],
+            "image": "./Images/image7.jpeg"
+        },
+        {
+            "id": 8,
+            "name": "Impeachment Milk Collection",
+            "location": "Murima",
+            "rating": 4.4,
+            "reviews": [
+                {
+                    "user": "Rigathi Gachagua",
+                    "comment": "Friendly staff, but the service is sometimes slow.",
+                    "rating": 4
+                }
+            ],
+            "image": "./Images/image8.jpeg"
+        },
+        {
+            "id": 9,
+            "name": "Genz Milk Collection",
+            "location": "CBD",
+            "rating": 3.5,
+            "reviews": [
+                {
+                    "user": "Kelvin Mutisya",
+                    "comment": "Service is okay, but could be more efficient.",
+                    "rating": 3
+                }
+            ],
+            "image": "./Images/image9.jpeg"
+        }
+    ]
+}
